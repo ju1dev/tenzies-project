@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Karla';
 }
 
 body {
@@ -10,10 +11,11 @@ body {
 
 main {
   background-color: #F5F5F5;
-    height: 400px;
+    height: 550px;
     max-width: 800px;
     border-radius: 5px;
     padding: 20px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +42,7 @@ main {
   cursor: pointer;
 }
 .die > h2 {
-  font-family: 'Karla';
+  
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -66,4 +68,15 @@ main {
 .roll-btn:active {
   opacity: 0.6;
   transition: 0.1s;
+}
+.introduction {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 12px 0;
+}
+.description {
+  width: 300px;
+  font-size: 20px;
+  margin-top: 0;
 }
