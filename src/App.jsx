@@ -83,7 +83,7 @@ function App() {
     </div>
     {!tenzies ? <button className='roll-btn' onClick={rollDice}>Roll</button> 
     :
-    <button className='roll-btn' onClick={() => setDice(allNewDice)}>Reset</button>
+    <button className='roll-btn' onClick={() => setDice(allNewDice)}>New Game</button>
     }
     <button onClick={winGame}></button>
 </main>
